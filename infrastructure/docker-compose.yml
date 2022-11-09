@@ -1,5 +1,17 @@
 version: '2.1'
 
 services:
-  hello:
-    image: hello-world
+  maildev:
+    image: maildev/maildev
+    ports:
+      - 1080:1080
+      - 1025:1025
+  
+  jaeger-all-in-one:
+    image: jaegertracing/all-in-one:latest
+    ports:
+      - "6831:6831/udp"
+      - "16685:16685"
+      - "16686:16686"
+      - "14268"
+      - "14250"  
