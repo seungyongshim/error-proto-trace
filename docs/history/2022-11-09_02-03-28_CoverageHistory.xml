@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<coverage version="1.0" date="2022-11-09_02-03-28" tag="5_3424734683">
+  <assembly name="Ports.Smtp">
+    <class name="Ports.Smtp.Actors.SmtpPortActor" coveredlines="0" coverablelines="37" totallines="62" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="11" />
+    <class name="Ports.Smtp.Extensions" coveredlines="0" coverablelines="10" totallines="35" coveredbranches="0" totalbranches="2" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Ports.Smtp.SmtpOption" coveredlines="0" coverablelines="1" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+    <class name="Ports.Smtp.SmtpOptions" coveredlines="0" coverablelines="1" totallines="35" coveredbranches="0" totalbranches="0" coveredcodeelements="0" totalcodeelements="1" />
+  </assembly>
+  <assembly name="SendMailService.Domain">
+    <class name="SendMailService.Domain.Email" coveredlines="1" coverablelines="1" totallines="3" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="SendMailService.Domain.EmailAddress" coveredlines="1" coverablelines="1" totallines="3" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+    <class name="SendMailService.Domain.EmailName" coveredlines="1" coverablelines="1" totallines="3" coveredbranches="0" totalbranches="0" coveredcodeelements="1" totalcodeelements="1" />
+  </assembly>
+</coverage>
